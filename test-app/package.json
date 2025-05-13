@@ -1,0 +1,31 @@
+{
+  "name": "vue-keycloak-axios-test-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@codegourmet/vue-keycloak-refresh": "file:../",
+    "axios": "^1.6.0",
+    "core-js": "^3.33.0",
+    "keycloak-js": "^23.0.0",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.0",
+    "typescript": "^5.2.0"
+  }
+}
