@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed, onMounted } from 'vue'
-import { keycloak, isKeycloakInitialized } from '@codegourmet/vue-keycloak-refresh'
+import { keycloak, isKeycloakInitialized } from '@codegourmet/vue-keycloak-axios'
 
 export default defineComponent({
   name: 'HomeView',

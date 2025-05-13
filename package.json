@@ -1,5 +1,5 @@
 {
-  "name": "@codegourmet/vue-keycloak-refresh",
+  "name": "@codegourmet/vue-keycloak-axios",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import KeycloakPlugin from '@codegourmet/vue-keycloak-refresh'
+import KeycloakPlugin from '@codegourmet/vue-keycloak-axios'
 
 // Create the Vue app
 const app = createApp(App)

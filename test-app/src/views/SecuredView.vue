@@ -42,7 +42,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed } from 'vue'
-import { keycloak } from '@codegourmet/vue-keycloak-refresh'
+import { keycloak } from '@codegourmet/vue-keycloak-axios'
 import axios from 'axios'
 
 export default defineComponent({

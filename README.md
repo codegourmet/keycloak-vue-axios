@@ -1,7 +1,7 @@
 ## Installation
 
 ```bash
-npm install @codegourmet/vue-keycloak-refresh
+npm install @codegourmet/vue-keycloak-axios
 ````
 
 ## Usage
@@ -10,7 +10,7 @@ npm install @codegourmet/vue-keycloak-refresh
 
 ```js
 import Vue from 'vue'
-import KeycloakPlugin from '@codegourmet/vue-keycloak-refresh'
+import KeycloakPlugin from '@codegourmet/vue-keycloak-axios'
 
 Vue.use(KeycloakPlugin, {
   url: 'https://auth.example.com/auth',
@@ -29,7 +29,7 @@ The plugin now supports extensive configuration options:
 
 ```js
 import Vue from 'vue'
-import KeycloakPlugin from '@codegourmet/vue-keycloak-refresh'
+import KeycloakPlugin from '@codegourmet/vue-keycloak-axios'
 import axios from 'axios'
 
 // Create custom axios instance if needed
