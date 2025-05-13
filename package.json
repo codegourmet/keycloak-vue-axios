@@ -1,0 +1,25 @@
+{
+  "name": "@codegourmet/vue-keycloak-refresh",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "format": "prettier --write \"src/**/*.{js,ts}\"",
+    "lint": "prettier --check \"src/**/*.{js,ts}\""
+  },
+  "peerDependencies": {
+    "axios": "^1.9.0",
+    "keycloak-js": "^15.0.2",
+    "vue": "^2 || ^3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "prettier": "^3.2.5",
+    "typescript": "^4.9.5"
+  }
+}
